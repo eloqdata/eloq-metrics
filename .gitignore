@@ -1,0 +1,14 @@
+build/**
+bld/
+.idea
+.vscode
+_*/
+*.log
+cmake-build-*/
+*.bash
+*.sh
+.clion.source.upload.marker
+.cache
+
+# cc compilation database for Emacs
+compile_commands.json
