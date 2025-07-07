@@ -24,6 +24,7 @@
 
 #include <prometheus/CivetServer.h>
 
+#include <algorithm>
 #include <cassert>
 #include <iostream>
 
@@ -170,7 +171,7 @@ prometheus::ClientMetric PrometheusCollector::CollectClientMetrics(
     }
     default:
         assert(false);
-        break;
+        return prometheus::ClientMetric{};
     }
 }
 

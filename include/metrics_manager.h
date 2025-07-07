@@ -20,6 +20,9 @@
  *
  */
 #pragma once
+
+#include <algorithm>
+
 #include "metrics.h"
 #include "metrics_collector.h"
 #include "prometheus_collector.h"
